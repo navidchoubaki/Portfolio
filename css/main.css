@@ -227,8 +227,8 @@ canvas {;
     z-index: 2;
 }
 
-/*.intro__img {*/
-/*    box-shadow: var(--bs);*/
+.intro__img {
+   box-shadow: var(--bs);
 }
 .section__subtitle--intro {
     display: inline-block;
@@ -244,11 +244,11 @@ canvas {;
                 "img subtitle";
         grid-template-columns: min-content max-content;
     }
-    /*.intro__img {*/
-    /*    grid-area: img;*/
-    /*    min-width: 250px;*/
-    /*    position: relative;*/
-    /*    z-index: 2;*/
+    .intro__img {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
     }
 
     .section__subtitle--intro {
